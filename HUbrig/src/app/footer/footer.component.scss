@@ -1,0 +1,24 @@
+
+:host {
+  width: 100%;
+}
+
+.footer {
+  background:#f2f8f9;
+  color:grey;
+  padding: 20px 1.8rem;
+  
+  -webkit-transition: all 0.25s ease;
+  
+  border-top:1px solid #f2f2f2;
+  font-size: calc(#{12px} - 0.05rem);
+  font-family:"poppins",sans-serif;
+  a {
+    color: theme-color(success);
+    font-size: inherit;
+  }
+  @media (max-width: 991px) {
+    margin-left: 0;
+    width: 100%;
+  }
+}
